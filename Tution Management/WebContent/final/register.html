@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+       background-image: url("save.jpg");
+      background-size: cover;
+
+
+}
+</style>
+
+<style>
+form {border: 3px solid #f1f1f1;}
+
+#registration_form {
+    left: 15%;
+    top: 50%;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: -15%;
+}
+
+
+button {
+    background-color: #808080;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.submitbtn{
+width: auto;
+padding:10px 18px;
+background-color: #008000;
+text-align: center;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+</style>
+
+<style>
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+</style>
+</head>
+<body>
+<form  id = "registration_form">
+<center><h1>Student Registration Form</h1></center>
+<fieldset>
+<div> <label>Roll Number:</label><input type="text">
+      <label>First Name:</label><input type="text" required placeholder="Enter First name"><br>
+      <label>Last name:</label><input type = "text" required placeholder="Enter Last name"><br>
+      <label>Address:</label><input type= "text" required placeholder="Enter address"><br>
+      <label>Birth Date:</label><input type ="text" required placeholder="DD/MM/YYYY"><br>
+      <label>Phone Number:</label><input type= "text" required placeholder="Enter phone no."><br>
+      <label>Email address:</label><input type = "text" required placeholder="Enter email address"><br>
+      <label>Password:</label><input type="text" required placeholder="Enter password">
+      <label>Re-confirm password:</label><input type="text" required placeholder="Again enter password"><br>
+      <label>Course name:</label>
+      <select name="course">
+ 	<option value="11th arts">XI Arts</option>
+	<option value="11th coomerse">XI Commerse</option>
+	<option type="11th science">XI Science</option>
+	<option value="12th arts">XII Arts</option>
+	<option value="12th coomerse">XII Commerse</option>
+	<option type="12th science">XII Science</option>
+</select>
+   <br> 
+     <label>Fee</label><input type="text"> 
+  </div>
+
+<div>
+<button type="button" class="submitbtn">Submit</button>
+<button type="button" class="cancelbtn">Cancel</button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CONTACT US</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+
+
+  <style>
+   body {font-family: Arial, Helvetica, sans-serif;
+       background-image: url("bg.jpg");}
+
+   .container{
+    margin:200px 100px 100px 100px;
+}
+  </style>
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container">
+  <div class="col-sm-offset-2 col-sm-10">
+   <div class="panel panel-default">
+                <div class="panel-heading">
+                  <strong><center>Enquiry Form</center></strong>
+                 </div>
+  
+  <div class="panel-body">
+  <form class="form-horizontal">
+
+
+
+
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="type">Select Type:</label>
+      <div class="col-sm-10">          
+      
+        <select>
+        <option value="Query">Query</option>
+        <option value="Suggestion">Sugggestion</option>
+        <option value="Other">Other</option>
+        
+</select>
+      </div>
+    </div>
+    
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="first_name">FIRST NAME:</label>
+      <div class="col-sm-4">
+       <input type="text" class="form-control" id="first_name" placeholder="Enter name" name="first_name">
+      </div>
+       <label class="control-label col-sm-2" for="last_name">LAST NAME:</label>
+      <div class="col-sm-4">
+       <input type="text" class="form-control" id="last_name" placeholder="Enter name" name="last_name">
+      </div>
+    </div>
+     
+     
+  
+    
+     <div class="form-group">
+      <label class="control-label col-sm-2" for="email"> EMAIL:</label>
+      <div class="col-sm-10">          
+        <input type="email" class="form-control" id="" placeholder="Enter email" name="email">
+      </div>
+      </div>
+      <div class="form-group">
+      <label class="control-label col-sm-2" for="phone">MOBILE NO:</label>
+      <div class="col-sm-10">          
+        <input type="tel" class="form-control" id="phone" placeholder="Enter mobile no" name="phone">
+      </div>
+       </div>
+
+    <div class="form-group"> 
+       <div class="col-sm-offset-2 col-sm-4">
+         <button type="reset" class="btn btn-default" value="reset">RESET</button>
+      </div>       
+      <div class="col-sm-offset-2 col-sm-4">
+         <button type="submit" class="btn btn-default" value="submit">Enquire Now</button>
+      </div>
+    </div>
+
+  </form>
+
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+    <div class="container">
+     <div class="row">
+     <h4>Information</h4>
+     <address>
+     Tution Management<br>
+     system.
+     </address>
+     <div class="col-md-2">
+    
+     </div>
+        <div class="bottom-footer">
+          <div class="col-md-5">@copyright 2018
+           </div>
+           <div class="col-md-7">
+              <ul class="footer-nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li> 
+              </ul>
+
+          </div>
+     </div>
+    </div>
+</footer>
+
+</body>
+</html>
